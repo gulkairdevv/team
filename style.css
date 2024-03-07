@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#header {
+  padding: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav select {
+  border: none;
+  font-size: 16px;
+  color: #000;
+}
+nav a {
+  font-size: 16px;
+  color: #000;
+}
+.header-register {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-register .login {
+}
